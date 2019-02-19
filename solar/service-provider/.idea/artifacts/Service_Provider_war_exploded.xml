@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Service-Provider:war exploded">
+    <output-path>$PROJECT_DIR$/target/Service-Provider-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Service-Provider/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Service-Provider" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-entitymanager:3.3.2.GA" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.13" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate:3.2.5.ga" />
+          <element id="library" level="project" name="Maven: org.hibernate:ejb3-persistence:1.0.1.GA" />
+          <element id="library" level="project" name="Maven: javax.transaction:jta:1.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
